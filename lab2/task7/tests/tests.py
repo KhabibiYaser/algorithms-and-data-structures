@@ -1,9 +1,10 @@
 import unittest
 import random
 from itertools import accumulate
+# from ..src.max_subarray_search_in_linear_time import *
+# from lab2.task7.src.max_subarray_search_in_linear_time import *
 
-from task7.src.max_subarray_search_in_linear_time import *
-
+from lab2.task7.src.max_subarray_search_in_linear_time import *
 
 class TestMaxSubarray(unittest.TestCase):
     def check_sort(self, testlist):

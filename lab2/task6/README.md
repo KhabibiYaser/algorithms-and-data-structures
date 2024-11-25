@@ -2,9 +2,9 @@
 ## Поиск максимальной прибыли
 ## Запуск программы
 ```bash
-python src/max_profit_search.py
+PYTHONPATH=/Users/yasirkhabibi/Desktop/algorithms-and-data-structures python3 lab2/task6/src/max_profit_search.py
 ```
 ## Запуск тестов
 ```bash
-python tests/tests.py
+PYTHONPATH=/Users/yasirkhabibi/Desktop/algorithms-and-data-structures python3 lab2/task6/tests/tests.py
 ```

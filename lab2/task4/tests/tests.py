@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import unittest
 
-from task4.src.binary_search import *
+from lab2.task4.src.binary_search import *
 
 class TestBinarySearch(unittest.TestCase):
 

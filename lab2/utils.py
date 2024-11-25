@@ -1,5 +1,14 @@
+# -*- coding: utf-8 -*-
+import sys
 import time
 import tracemalloc
+import os
+from os.path import abspath
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+sys.path.append(dname)
+os.chdir(dname)
 
 
 def measure_performance(function, *args, **kwargs):
@@ -13,13 +22,12 @@ def measure_performance(function, *args, **kwargs):
     end_time = time.perf_counter()
 
     elapsed_time = end_time - start_time
-    peak_memory_megabytes = peak / 10 ** 6
+    peak_memory_megabytes = peak / 10 ** 6 # переводим в мегабайты
 
     print(f"Execution time: {elapsed_time:.6f} seconds")
     print(f"Peak memory usage: {peak_memory_megabytes:.6f} MB")
 
     return result, elapsed_time, peak_memory_megabytes
-
 
 def file_read_size_int_array(input_file_path='../txtf/input.txt'):
     with open(input_file_path, 'r') as file:

@@ -2,9 +2,9 @@
 ## Представитель большинства
 ## Запуск программы
 ```bash
-python src/majority_delegate.py
+PYTHONPATH=/Users/yasirkhabibi/Desktop/algorithms-and-data-structures python3 lab2/task5/src/majority_delegate.py
 ```
 ## Запуск тестов
 ```bash
-python tests/tests.py
+PYTHONPATH=/Users/yasirkhabibi/Desktop/algorithms-and-data-structures python3 lab2/task5/tests/tests.py
 ```

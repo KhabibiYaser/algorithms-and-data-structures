@@ -1,7 +1,7 @@
 import unittest
 from itertools import accumulate
 
-from task6.src.max_profit_search import *
+from lab2.task6.src.max_profit_search import *
 
 class TestMaxProfit(unittest.TestCase):
 
